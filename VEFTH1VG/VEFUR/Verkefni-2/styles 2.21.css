@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+.class1 span {
+    display: block;
+    border: 3px dashed green;
+    padding: 1em ;
+    margin: 1em;
+    padding-left: 0em;
+    text-indent: 10px;
+}
+.class2 span {
+    display: inline;
+    border: 3px dashed blue;
+    padding: 1em ;
+    margin: 8em;
+    margin-inline: -25px;
+    line-height: 5;
+    
+}
+.class3 span {
+    display: inline-block;
+    border: 3px dashed red;
+    padding: 1em ;
+    margin: 1em;
+}

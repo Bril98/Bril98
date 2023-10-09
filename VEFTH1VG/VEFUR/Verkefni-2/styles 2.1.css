@@ -1,0 +1,38 @@
+body {
+	max-width: 80em; 
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 1em auto; 
+	padding: 1em; 
+	border: 1px solid red;
+}
+h1 {
+	color:rgb(31, 71, 20);
+	font-variant: small-caps;
+}
+h2, strong {
+	color: #800; 
+}
+em {
+	color: rgb(41, 33, 151);
+}
+strong {
+    color: crimson;
+}
+a {
+    color: darkgreen;
+}
+.underline {
+    text-decoration: underline;
+}
+a:link {
+    color: red;
+  }
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+  }
+a:active {
+    color: blue;
+}

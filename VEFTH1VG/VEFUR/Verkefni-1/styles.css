@@ -1,0 +1,49 @@
+body {
+    max-width: 80em;
+    border: 1px solid red; 
+    margin: 1em auto; 
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: green;
+}
+h2 {
+    color: red;
+}
+h3 {
+    color: orange;
+}
+h4 {
+    color: yellow;
+}
+h5 {
+    color: indigo;
+}
+h6 {
+    color: violet;
+}
+em {
+    color: blue;
+}
+strong {
+    color: crimson;
+}
+a {
+    color: darkgreen;
+}
+.underline {
+    text-decoration: underline;
+}
+a:link {
+    color: red;
+  }
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+  }
+a:active {
+    color: blue;
+}

@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+.group {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    
+}
+.box1 {
+    border: 2px solid black;
+    
+}
+.box2 {
+    border: 2px solid black;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+.box3 {
+    border: 2px solid black;
+    
+}
+.bigL {
+    border: 2px solid black;
+
+}
+.athugid {
+    border: 2px solid black;
+}

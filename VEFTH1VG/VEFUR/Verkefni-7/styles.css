@@ -1,0 +1,298 @@
+* { box-sizing: border-box } 
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 0; 
+    background: linear-gradient(to top, #E9B8B6, #FAA09B, #EB786F);
+    color: #444;
+    font: 400 1em/1.5 "Open Sans", sans-serif; 
+}
+h1, h2 {
+    font-weight: 300;
+}
+h1 {
+    font-family: 'Nosifer', cursive;
+    font-size: 1.8em;
+    color: #E7473C;
+}
+a {
+    color: #0064ce;
+}
+.frontpage {
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:3em 1em
+}
+.fyrirsogn {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+.fyrirsogn h1 {
+    font-family: 'Nosifer', cursive;
+    color: #E7473C;
+    font-size: 2.5em;
+    line-height: .9em;
+    margin: 0;
+}
+.fyrirsogn a {
+    display: block;
+    width: 8em;
+    margin: 0 auto;
+    color:white;
+    border: 1px solid #fff;
+    border-radius: .4em;
+    padding: .5em;
+    background: linear-gradient(#024386, #0064CE, #024386);
+    text-decoration: none;
+}
+.frikka {
+    display: grid;
+    border: 0;
+    margin-bottom:0;
+}
+.frikka h1 {
+    font-family: 'Nosifer', cursive;
+    color: #E7473C;
+    font-size: 1em;
+    margin:0;
+    text-align: center;
+}
+
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.beige {
+    background: linear-gradient(to bottom, #E9B8B6, #F0F0F0);
+    padding: 1em 1em 2em 1em;
+}
+.topnav {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+.topnav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom:1em;
+    text-transform: uppercase;
+}
+.verkefni {
+    position: absolute;
+    top: 0;
+    right: 1em;
+    text-align: right;
+    color: #E7473C;
+}
+.copy {
+    color:#fff;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+.topbutt {
+    background-color: #E7473C;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.5em;
+    display: block;
+    position:relative; 
+    width: 1.5em;
+    padding: 0 .2em;
+    margin: 0 auto;
+}
+.topbutt:active, .topbutt:hover  {
+    background-color: #0064ce;
+    color: #fff;
+}
+.foot {
+    color: #fff;
+    padding: 0 1em
+}
+.foot a {
+    color: wheat;
+}
+.foot a:visited {
+    color: #fff;
+}
+.foot a:hover {
+    text-decoration: none;
+}
+.foot li {
+    list-style-type: none;
+    padding-bottom: .5em;
+}
+.skyring {
+    margin:0;
+    padding:1em 0 0 0;
+}
+.innerlinks {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-image: linear-gradient(#E7473C, #EB786F);
+}
+.innerlinks a{
+    display: block;
+    text-align: center;
+    padding: .5em 1em;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+
+
+
+@media screen and (min-width: 37.5em) {  
+    .fyrirsogn h1 {
+        font-size: 3.5em;
+    }
+    .innerlinks {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .innerlinks a {
+        border: 0;
+    }
+}
+
+
+@media screen and (min-width: 48em) {  
+    
+    .col-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .col-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+    }
+    .col-4 {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .gap {
+        gap: 2em
+    }
+    .topnav {
+        margin-top: 5em;
+        display: flex;
+        justify-content: space-around;
+    }
+    .frontpage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .fyrirsogn h1 {
+        font-size: 6em;
+        margin-top:1em;
+    }
+    .innerlinks a {
+        border-right: 1px solid white;
+    }
+    .innerlinks a:last-child {
+        border:0;
+    }
+}
+
+
+
+@media screen and (min-width: 60em) {  
+    .container {
+        max-width: 60em; 
+        margin: 0 auto; 
+        padding: 0;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    .topnav {
+        margin-top: 7em;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .topnav a {
+        padding: 0 0 0 3em;
+    }
+
+    .verkefni {
+        text-align: right;
+        color: #E7473C;
+    }
+
+    .gap {
+        gap: 3em
+    }
+    .margintop {
+        margin-top: 3em;
+    }
+    .fyrirsogn h1 {
+        font-size: 8em;
+    }
+}
+@media screen and (min-width: 90em) {  
+    .fyrirsogn {
+        max-width: 90em;
+    }
+}
+
+.gluggi {
+    width:18.75em; 
+    height:10.5em; 
+  }
+
+@media screen and (min-width: 25em) {
+    .gluggi {
+      width:23em; 
+      height:13em;
+    }
+ }
+
+@media screen and (min-width: 30em) {
+    .gluggi {
+     width:28em;     
+     height:15.75em; 
+   }
+ }
+
+@media screen and (min-width: 37.5em) {
+    .gluggi {
+      width:35em;     
+      height:19.7em; 
+    }
+ }
+
+ @media screen and (min-width:48em){
+  .gluggi {
+    width:46em; 
+    height:24.6em; 
+  }
+}
+@media screen and (min-width:60em){
+  .gluggi {
+    width:59em; 
+    height:33em; 
+  }
+}
